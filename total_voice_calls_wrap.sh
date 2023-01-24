@@ -3,6 +3,6 @@
 while [ : ]
 do
     echo "`date -u` Start Total Voice Calls script"
-    /opt/twamp/twampClient.py
+    /opt/total-voice-calls/total_voice_calls.py
     sleep 5m
 done
