@@ -1,7 +1,7 @@
 FROM ubuntu:20.04
 
 RUN apt update
-RUN apt install python3.8 python3-pip snmp
+RUN apt install -y python3.8 python3-pip snmp
 RUN pip3 install influxdb
 
 RUN mkdir /opt/total-voice-calls
